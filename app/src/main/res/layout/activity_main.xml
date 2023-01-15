@@ -35,7 +35,7 @@
             android:layout_marginTop="10dp"
             android:layout_toEndOf="@+id/tictactoeText"
             android:backgroundTint="#050232"
-            android:drawableLeft="@drawable/ic_more" />
+            android:drawableStart="@drawable/ic_more" />
 
 
 
