@@ -79,10 +79,10 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
         }
 
         if (player1Turn) {
-            ((Button) v).setText("😋");
+            ((Button) v).setText("X");
             playerTurn.setText(getResources().getString(R.string.player_O_turn));
         } else {
-            ((Button) v).setText("😍");
+            ((Button) v).setText("O");
             playerTurn.setText(getResources().getString(R.string.player_X_turn));
         }
 
@@ -168,8 +168,8 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
 
     @SuppressLint("SetTextI18n")
     private void updatePointsText() {
-        text_view_p1.setText("Player 😋 \n"+player1Points);
-        text_view_p2.setText("Player 😍 \n"+player2Points);
+        text_view_p1.setText("Player X \n"+player1Points);
+        text_view_p2.setText("Player O \n"+player2Points);
     }
 
     private void resetBoard() {
@@ -189,8 +189,8 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
         player2Points = 0;
         updatePointsText();
         playerTurn.setText(getResources().getString(R.string.player_X_turn));
-        text_view_p1.setText("Player 😋 \n"+0);
-        text_view_p2.setText("Player 😍 \n"+0);
+        text_view_p1.setText("Player X \n"+0);
+        text_view_p2.setText("Player O \n"+0);
         resetBoard();
     }
 

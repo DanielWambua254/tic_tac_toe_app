@@ -1,12 +1,12 @@
 <resources>
     <string name="app_name">Tic Tac Toe</string>
-    <string name="player_X_wins">Player 😋 wins !</string>
-    <string name="player_O_wins">Player 😍 wins !</string>
+    <string name="player_X_wins">Player X wins !</string>
+    <string name="player_O_wins">Player O wins !</string>
     <string name="draw">Draw !</string>
-    <string name="player_X_turn">Player 😋 turn</string>
-    <string name="player_O_turn">Player 😍 turn</string>
-    <string name="player_X">Player 😋</string>
-    <string name="player_O">Player 😍</string>
+    <string name="player_X_turn">Player X turn</string>
+    <string name="player_O_turn">Player O turn</string>
+    <string name="player_X">Player X</string>
+    <string name="player_O">Player O</string>
     <string name="un_mute">Un Mute</string>
     <string name="mute">Mute</string>
     <string name="restartRound">Reset Board</string>
